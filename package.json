@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "main": "master.js",
   "scripts": {
+    "start": "node master.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Kosar Tarkhany",
   "license": "ISC",
   "keywords": [],
-  "description": "",
+  "description": "chanages have been happend",
   "dependencies": {
-    "fs": "^0.0.1-security",
     "node-telegram-bot-api": "^0.64.0"
   }
 }
