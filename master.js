@@ -41,7 +41,7 @@ bot.onText(/\/start/, (msg) => {
       { text: 'دەمەوێت دەست بکەم بە کار کردن', callback_data: 'button_2' },
     ],
     [
-      { text: 'بینینی کەسانی سەرکەوتو', url: 'https://t.me/+GC9IN73MGidlNjAy' },
+      { text: 'بینینی کەسانی سەرکەوتو', url: 'https://t.me/+nm57J6RBeLRhMDNi' },
       { text: 'سۆشیاڵ میدیاکانمان', callback_data: 'button_4' },
     ],
   ];
@@ -175,7 +175,7 @@ case 'project_notification':
 
       case 'button_3':
         [
-          { text: 'Open Link', url: 'https://t.me/+GC9IN73MGidlNjAy' },
+          { text: 'Open Link', url: 'https://t.me/+nm57J6RBeLRhMDNi' },
         ]
         
         break;
