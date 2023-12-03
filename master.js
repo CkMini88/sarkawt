@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const bot = new TelegramBot('6623345637:AAHxCNrD05-Wy6IgPY7Kimc2PxY1bKZLfRU', { polling: true });
 
-const adminChatId = 5167117549;
+const adminChatId = 5796080247;
 
 let voiceOptionClicked = false; 
 
