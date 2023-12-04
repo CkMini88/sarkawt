@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const bot = new TelegramBot('6623345637:AAHxCNrD05-Wy6IgPY7Kimc2PxY1bKZLfRU', { polling: true });
 
-const adminChatId = 5167117549;
+const adminChatId = 5796080274;
 
 let voiceOptionClicked = false; 
 
@@ -41,7 +41,7 @@ bot.onText(/\/start/, (msg) => {
       { text: 'دەمەوێت دەست بکەم بە کار کردن', callback_data: 'button_2' },
     ],
     [
-      { text: 'بینینی کەسانی سەرکەوتو', url: 'https://t.me/+GC9IN73MGidlNjAy' },
+      { text: 'بینینی کەسانی سەرکەوتو', url: 'https://t.me/+nm57J6RBeLRhMDNi' },
       { text: 'سۆشیاڵ میدیاکانمان', callback_data: 'button_4' },
     ],
   ];
@@ -54,7 +54,7 @@ case 'project_notification':
   const options = [
       [
           { text: 'ناسینی پرۆژە بە دەنگ', callback_data: 'voice_option' },
-          { text: 'سۆشیاڵ میدیاکانمان', callback_data: 'text_option' },
+          { text: 'ناسینی پرۆژە بە دەق', callback_data: 'text_option' },
       ]
   ];
 
@@ -175,7 +175,7 @@ case 'project_notification':
 
       case 'button_3':
         [
-          { text: 'Open Link', url: 'https://t.me/+GC9IN73MGidlNjAy' },
+          { text: 'Open Link', url: 'https://t.me/+nm57J6RBeLRhMDNi' },
         ]
         
         break;
