@@ -108,7 +108,7 @@ case 'project_notification':
 
       case 'voice_option':
         if (!voiceOptionClicked) {
-          voiceOptionClicked = true;
+          voiceOptionClicked = false;
 
           const audioFilePath = 'C:/Users/ZETTA/Downloads/mahdyvoice.mp3';
 
