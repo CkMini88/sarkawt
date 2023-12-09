@@ -1,9 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 
-const bot = new TelegramBot('6623345637:AAHxCNrD05-Wy6IgPY7Kimc2PxY1bKZLfRU', { polling: true });
-
-const adminChatId = 5796080274;
+const bot = new TelegramBot('6623345637:AAHxCNrD05-Wy6IgPY7Kimc2PxY1bKZLfRU', { polling: true })
 
 let voiceOptionClicked = false; 
 
@@ -108,7 +106,7 @@ case 'project_notification':
 
       case 'voice_option':
         if (!voiceOptionClicked) {
-          voiceOptionClicked = true;
+          voiceOptionClicked = false;
 
           const audioFilePath = 'C:/Users/ZETTA/Downloads/mahdyvoice.mp3';
 
